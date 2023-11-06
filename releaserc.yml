@@ -29,8 +29,8 @@ plugins:
           countMatches: true
         - files:
             - package-lock.json
-          from: '\"name\": \"java-app-template\",\n  \"version\": \".*\"'
-          to: "\"name\": \"java-app-template\",\n  \"version\": \"${nextRelease.version}\""
+          from: '\"name\": \"cartago-docker\",\n  \"version\": \".*\"'
+          to: "\"name\": \"cartago-docker\",\n  \"version\": \"${nextRelease.version}\""
           results:
             - file: package-lock.json
               hasChanged: true
@@ -39,8 +39,8 @@ plugins:
           countMatches: true
         - files:
             - package-lock.json
-          from: '\"name\": \"java-app-template\",\n      \"version\": \".*\"'
-          to: "\"name\": \"java-app-template\",\n      \"version\": \"${nextRelease.version}\""
+          from: '\"name\": \"cartago-docker\",\n      \"version\": \".*\"'
+          to: "\"name\": \"cartago-docker\",\n      \"version\": \"${nextRelease.version}\""
           results:
             - file: package-lock.json
               hasChanged: true

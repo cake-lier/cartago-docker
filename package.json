@@ -1,5 +1,5 @@
 {
-  "name": "java-app-template",
+  "name": "cartago-docker",
   "version": "0.0.0",
   "description": "",
   "main": "",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cake-lier/java-app-template.git"
+    "url": "git+https://github.com/cake-lier/cartago-docker.git"
   },
   "author": "",
   "license": "",
   "bugs": {
-    "url": "https://github.com/cake-lier/java-app-template/issues"
+    "url": "https://github.com/cake-lier/cartago-docker/issues"
   },
-  "homepage": "https://github.com/cake-lier/java-app-template#readme",
+  "homepage": "https://github.com/cake-lier/cartago-docker#readme",
   "dependencies": {
     "@google/semantic-release-replace-plugin": "1.2.7",
     "@semantic-release/changelog": "6.0.3",
