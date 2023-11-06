@@ -1,1 +1,1 @@
-rootProject.name = "java-app-template"
+rootProject.name = "cartago-docker"
