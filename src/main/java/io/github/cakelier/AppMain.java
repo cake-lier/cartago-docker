@@ -3,7 +3,10 @@ package io.github.cakelier;
 import cartago.CartagoEnvironment;
 import cartago.CartagoException;
 import cartago.utils.BasicLogger;
-import org.apache.commons.cli.*;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
 
 public final class AppMain {
     private AppMain() { }
