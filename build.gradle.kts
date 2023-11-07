@@ -53,7 +53,12 @@ version = "0.0.0"
 
 dependencies {
   implementation(files("libs/cartago.jar"))
-  implementation(libs.typesafe.config)
+  implementation(libs.apache.commons.cli)
+  implementation(libs.vertx.core)
+  implementation(libs.vertx.sync)
+  implementation(libs.vertx.web)
+  implementation(libs.vertx.web.client)
+  implementation(libs.jackson.core)
 
   compileOnly(libs.spotbugs.annotations)
   pmd(libs.pmd.java)

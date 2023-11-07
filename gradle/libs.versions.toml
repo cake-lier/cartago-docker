@@ -3,6 +3,7 @@ checkstyle = "10.12.4"
 spotbugs = "4.8.0"
 pmd = "7.0.0-rc4"
 jacoco = "0.8.9"
+vertx = "3.7.0"
 
 [libraries]
 junit-platform = "org.junit:junit-bom:5.10.1"
@@ -10,8 +11,12 @@ junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
 spotbugs-annotations = { module = "com.github.spotbugs:spotbugs-annotations", version.ref = "spotbugs" }
 pmd-java = { module = "net.sourceforge.pmd:pmd-java", version.ref = "pmd" }
 pmd-ant = { module = "net.sourceforge.pmd:pmd-ant", version.ref = "pmd" }
-typesafe-config = "com.typesafe:config:1.4.3"
-
+apache-commons-cli = "commons-cli:commons-cli:1.6.0"
+vertx-core = { module = "io.vertx:vertx-core", version.ref = "vertx" }
+vertx-sync = { module = "io.vertx:vertx-sync", version.ref = "vertx" }
+vertx-web = { module = "io.vertx:vertx-web", version.ref = "vertx" }
+vertx-web-client = { module ="io.vertx:vertx-web-client", version.ref = "vertx" }
+jackson-core = "com.fasterxml.jackson.core:jackson-databind:2.9.8"
 
 [plugins]
 shadowJar = "com.github.johnrengelman.shadow:8.1.1"
