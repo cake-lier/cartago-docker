@@ -10,6 +10,8 @@ junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
 spotbugs-annotations = { module = "com.github.spotbugs:spotbugs-annotations", version.ref = "spotbugs" }
 pmd-java = { module = "net.sourceforge.pmd:pmd-java", version.ref = "pmd" }
 pmd-ant = { module = "net.sourceforge.pmd:pmd-ant", version.ref = "pmd" }
+typesafe-config = "com.typesafe:config:1.4.3"
+
 
 [plugins]
 shadowJar = "com.github.johnrengelman.shadow:8.1.1"

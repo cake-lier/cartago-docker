@@ -52,6 +52,9 @@ group = "io.cake-lier.github"
 version = "0.0.0"
 
 dependencies {
+  implementation(files("libs/cartago.jar"))
+  implementation(libs.typesafe.config)
+
   compileOnly(libs.spotbugs.annotations)
   pmd(libs.pmd.java)
   pmd(libs.pmd.ant)
