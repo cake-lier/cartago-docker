@@ -49,7 +49,7 @@ repositories {
 }
 
 group = "io.cake-lier.github"
-version = "0.0.0"
+version = "1.0.0"
 
 dependencies {
   implementation(files("libs/cartago.jar"))
