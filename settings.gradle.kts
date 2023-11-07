@@ -1,1 +1,1 @@
-rootProject.name = "cartago-docker"
+rootProject.name = "cartago"
