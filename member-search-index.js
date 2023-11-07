@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"io.cakelier.github","c":"AppMain","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
