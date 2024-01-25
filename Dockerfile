@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21.0.1_12-jre
+FROM eclipse-temurin:21.0.2_13-jre
 
 ENV ENV_NAME=main
 ENV ROOT_NAME=mas
