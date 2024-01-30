@@ -3,7 +3,7 @@ checkstyle = "10.12.4"
 spotbugs = "4.8.3"
 pmd = "7.0.0-rc4"
 jacoco = "0.8.9"
-vertx = "4.5.1"
+vertx = "4.5.2"
 
 [libraries]
 junit-platform = "org.junit:junit-bom:5.10.1"
