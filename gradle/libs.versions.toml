@@ -16,7 +16,7 @@ vertx-core = { module = "io.vertx:vertx-core", version.ref = "vertx" }
 vertx-sync = { module = "io.vertx:vertx-sync", version.ref = "vertx" }
 vertx-web = { module = "io.vertx:vertx-web", version.ref = "vertx" }
 vertx-web-client = { module ="io.vertx:vertx-web-client", version.ref = "vertx" }
-jackson-core = "com.fasterxml.jackson.core:jackson-databind:2.17.0"
+jackson-core = "com.fasterxml.jackson.core:jackson-databind:2.17.1"
 
 [plugins]
 shadowJar = "com.github.johnrengelman.shadow:8.1.1"
