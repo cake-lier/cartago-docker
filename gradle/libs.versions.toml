@@ -11,7 +11,7 @@ junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
 spotbugs-annotations = { module = "com.github.spotbugs:spotbugs-annotations", version.ref = "spotbugs" }
 pmd-java = { module = "net.sourceforge.pmd:pmd-java", version.ref = "pmd" }
 pmd-ant = { module = "net.sourceforge.pmd:pmd-ant", version.ref = "pmd" }
-apache-commons-cli = "commons-cli:commons-cli:1.7.0"
+apache-commons-cli = "commons-cli:commons-cli:1.8.0"
 vertx-core = { module = "io.vertx:vertx-core", version.ref = "vertx" }
 vertx-sync = { module = "io.vertx:vertx-sync", version.ref = "vertx" }
 vertx-web = { module = "io.vertx:vertx-web", version.ref = "vertx" }
