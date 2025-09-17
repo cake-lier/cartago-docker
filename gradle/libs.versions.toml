@@ -20,6 +20,6 @@ jackson-core = "com.fasterxml.jackson.core:jackson-databind:2.20.0"
 
 [plugins]
 shadowJar = "com.github.johnrengelman.shadow:8.1.1"
-spotbugs = "com.github.spotbugs:6.4.1"
+spotbugs = "com.github.spotbugs:6.4.2"
 docker = "com.bmuschko.docker-remote-api:9.4.0"
 sonarqube =  "org.sonarqube:6.3.1.5724"
