@@ -6,7 +6,7 @@ jacoco = "0.8.9"
 vertx = "4.5.14"
 
 [libraries]
-junit-platform = "org.junit:junit-bom:6.0.0"
+junit-platform = "org.junit:junit-bom:6.0.1"
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter" }
 spotbugs-annotations = { module = "com.github.spotbugs:spotbugs-annotations", version.ref = "spotbugs" }
 pmd-java = { module = "net.sourceforge.pmd:pmd-java", version.ref = "pmd" }
