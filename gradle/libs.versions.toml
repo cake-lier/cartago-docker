@@ -1,6 +1,6 @@
 [versions]
 checkstyle = "10.12.4"
-spotbugs = "4.9.8"
+spotbugs = "4.10.2"
 pmd = "7.25.0"
 jacoco = "0.8.15"
 vertx = "4.5.14"
